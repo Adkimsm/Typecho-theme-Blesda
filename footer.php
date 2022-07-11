@@ -42,6 +42,7 @@ style="font-family: Cardo,Georgia,Cambria,Times New Roman,Times,serif;"
 </footer>
 
                         </div>       </div>
+    <script defer>ks.image("article img")</script>
 </body>
 
 </html>

@@ -26,6 +26,9 @@
       rel="stylesheet"
       href="<?php $this->options->themeUrl('normalize.css'); ?>"
     />
+    <script src="https://cdn.statically.io/gh/Dreamer-Paul/Kico-Style@master/kico.min.js"></script>
+    <link href="https://cdn.statically.io/gh/Dreamer-Paul/Kico-Style@master/kico.min.css" rel="stylesheet" type="text/css"/>
+
     <?php
 if ($this->is('page') or $this->is('post')):
 ?>
@@ -39,9 +42,7 @@ if ($this->is('page') or $this->is('post')):
     />
     <script src="<?php $this->options->themeUrl('prism.js'); ?>"></script>
     <? endif;?>
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <style>
+    <script src="https://cdn.tailwindcss.com"></script>    <style>
         h1,h2,h3,h4 {
         font-family: Fira Sans, -apple-system, BlinkMacSystemFont, Segoe UI,
           Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
