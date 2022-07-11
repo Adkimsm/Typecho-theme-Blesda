@@ -205,7 +205,7 @@
     margin: 0;
     padding: 0;
   }
-  
+  /*
   .yue code,
   .yue tt {
     color: #808080;
@@ -222,7 +222,6 @@
     margin: 1.64em 0;
     padding: 7px;
     border: none;
-    border-left: 3px solid #dadada;
     padding-left: 10px;
     overflow: auto;
     line-height: 1.5;
@@ -239,7 +238,7 @@
     background: none;
     padding: 0;
   }
-  
+  */
   .yue table {
     width: 100%;
     max-width: 100%;

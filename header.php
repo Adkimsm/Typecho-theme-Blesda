@@ -26,10 +26,19 @@
       rel="stylesheet"
       href="<?php $this->options->themeUrl('normalize.css'); ?>"
     />
+    <?php
+if ($this->is('page') or $this->is('post')):
+?>
+<link
+  rel="stylesheet"
+  href="<?php $this->options->themeUrl('yue.css'); ?>"
+/>
     <link
       rel="stylesheet"
-      href="<?php $this->options->themeUrl('yue.css'); ?>"
+      href="<?php $this->options->themeUrl('prism.css'); ?>"
     />
+    <script src="<?php $this->options->themeUrl('prism.js'); ?>"></script>
+    <? endif;?>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
